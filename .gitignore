@@ -3,3 +3,4 @@
 .flatpak-builder
 flatpak
 build
+__pycache__
