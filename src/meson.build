@@ -29,13 +29,13 @@ catgirldownloader_sources = [
   '__init__.py',
   'main.py',
   'window.py',
-  'catgirl.py',
-  'danbooru.py',
   'preferences.py',
   'preferenceswindow.py',
-  'waifu.py',
   'types.py',
-  'api_base.py',
+  'api/api_base.py',
+  'api/waifu.py',
+  'api/catgirl.py',
+  'api/danbooru.py',
 ]
 
 install_data(catgirldownloader_sources, install_dir: moduledir)
